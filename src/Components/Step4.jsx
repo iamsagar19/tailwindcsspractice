@@ -16,6 +16,7 @@ const Step4 = ({setCurrentStep}) => {
         // setInterval(() => {
             // setOpenThankyou(true);
             alert("You have succesfully subscribed")
+            setCurrentStep(1)
             // setOpenLoader(false);
         // },[2000])
     }
